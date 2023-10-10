@@ -1,0 +1,718 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@media(max-width:500px){
+
+}
+.banner-top {
+    position: absolute;
+    height: 700px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: none;
+}
+.first{
+    
+    background-image: url(../img/slider1.jpg);
+}
+.second{
+    
+    background-image: url(../img/slider2.jpg);
+}
+.third{
+    background-image: url(../img/slider3.jpg);
+}   
+.bn-active{
+    position: relative;
+    display: block !important;
+}
+.banner-bottom{
+    margin: 0;
+}
+.part-shop-categories{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/bg_cat.jpg);
+    background-size: initial;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.item-bt1{
+    width: 100%;
+    height: 250px;
+    background-image: url(../img/banner11.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.item-bt2{
+    width: 100%;
+    height: 250px;
+    background-image: url(../img/banner12.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.item-bt3{
+    width: 100%;
+    height: 250px;
+    background-image: url(../img/banner13.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.info-product .status{
+    font-size: 0.7rem;
+}
+.pr-grid .pr-image{
+    position: relative;
+    overflow: hidden;
+    transition: 0.5s all;
+}
+.pr-grid .pr-image .image{
+    display: block;
+}
+.pr-grid .pr-image img{
+    width: 100%;
+    height: auto;
+}
+.pr-image .image2{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.5s all;
+}
+.pr-grid .pr-image .image1{
+    opacity: 1;
+    transition: 0.5s all;
+}
+.pr-grid:hover .pr-image .image1{
+    opacity: 0;
+}
+.pr-grid:hover .pr-image .image2{
+    opacity: 1;
+}
+.old-price{
+    text-decoration: line-through;
+}
+.pr-grid .visible{
+    position: absolute;
+    bottom: -25px;
+    padding: 0;
+    margin: 0;
+}
+.pr-grid .visible .vi{
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.5s all;
+}
+.pr-grid:hover .visible .vi{
+    transform: translate(0);
+    opacity: 1;
+}
+.pr-grid .info-product{
+    opacity: 1;
+    transition: 1.15s all;
+}
+.pr-grid:hover .info-product{
+    opacity: 0;
+    transition: 0.5s all;
+}
+.vi .button{
+    text-align: center;
+    color: black;
+    background: none;
+    text-decoration: none;
+    
+}
+.vi .btnAddCart{
+    color: white;
+    background: black;
+}
+.vi .button:hover {
+    color: pink;
+}
+.vi .btnAddCart:hover {
+    color: white;
+    text-decoration: none;
+    background: pink;
+}
+.vi{
+    text-align: center;
+}
+.visible{
+    width: 255px;
+    height: 150px;
+}
+.btnAddCart{
+    padding-top: 12px;
+    height: 50px;
+}
+.btnAC{
+    text-align: center;
+}
+.visible a:hover{
+    text-decoration: none;
+}
+.info-product{
+    margin-top: 25px;
+}
+.status{
+    opacity: 0.6;
+}
+.sale{
+    position: absolute;
+    transform: translateY(-320px);
+    background: red;
+    color: white;
+    padding: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.sale-price{
+    font-weight: bold;
+}
+.menu-title{
+    width: 95%;
+}
+.info-ftbt{
+    width: 95%;
+}
+.col-md-3{
+    margin-top: 30px !important;
+}
+.rating{
+    color: yellow;
+}
+.footer-top{
+    margin-top: 10%;
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: initial;
+    background-image: url(../img/banner4.jpg);
+}
+.small-title{
+    font-size: 1.6rem;
+    font-weight: 200;
+    font-family: monospace;
+    opacity: 0.6;
+}
+.ftt-content{
+    font-size: 3.2rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 4rem;
+    font-family: monospace;
+}
+.btnShopNow{
+    margin: 1% auto;
+    font-weight: bold;
+    font-size: 0.8rem;
+    width: 10%;
+    padding: 10px;
+    background: black;
+    border: 1px solid none;
+}
+.status-footer-top{
+    padding-top: 10%;
+}
+.btnShopNow:hover{
+    background: pink;
+}
+footer{
+    margin: 0;
+    padding: 0;
+}
+.footer-bottom{
+    background: black;
+    color: white;
+}
+
+.trend-model{
+    width: 95%;
+}
+.footer-bottom ul li{
+    text-decoration: none;
+    list-style: none;
+}
+.info-ftbt{
+    margin-left: 10px;
+}
+.contact{
+    margin-top: 3%;
+    margin-left: 10%;
+}
+.contactIt{
+    opacity: 0.5;
+    font-size: 0.9rem;
+}
+.Phone {
+    color: black;
+    opacity: 1;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+}
+.Phone:hover{
+    text-decoration: none !important;
+    color: pink;
+}
+.cart{
+    padding:0 20px ;
+    border: 1px solid #9694948a !important;
+    border-top: none !important;
+    border-bottom: none !important;
+}
+.contactUl .nav-item{
+    width: 20%;
+    height: 5%;
+    padding:0 20px ;
+    border: 1px solid #9694948a;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+}
+.inputSearch{
+    margin-left: 5px;
+    border: none;
+    width: 60% !important;
+}
+.btnSearch{
+    color: black;
+    font-weight: bold;
+    border: none;
+}
+.Login{
+    border: none !important;
+}
+.btnSearch:hover{
+    color:pink;
+    background: none;
+}
+.formSearch{
+    border: 1px solid black;
+    opacity: 0.3;
+    border-top: none;
+    border-bottom: none;
+    width: 70%;
+    margin-right: 0;
+    padding: 2px;
+}
+.tool-bar{
+    line-height: 80%;
+}
+.menu-title{
+    height: 100px;
+}
+.imgLogo{
+    width: 34%;
+    margin-left: 15%;
+    margin-top: 8%;
+}
+.menu{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 2%;
+}
+.icon{
+    margin-top: 3%;
+    float: right;
+    width: 40%;
+}
+a .icon-item{
+    color: black;
+    opacity: 0.3;
+    margin-left: 15%;
+}
+a .icon-item:hover{
+    opacity: 1;;
+}
+.menuUl{
+    width: 100%;
+    margin: 0 auto;
+}
+.menuUl .nav-item{
+    font-family: "Roboto",Sans-serif;
+    font-weight: bold;
+    padding: 3%;
+}
+.menuUl .nav-item .nav-link{
+    color: black;
+}
+.menuUl .nav-item .nav-link:hover{
+    color: pink;
+    
+}
+.menuUl .active .nav-link{
+    color:pink !important;
+}
+.bn-mother{
+    width: 100%;
+    background: #e8f1f1;
+}
+.banner{
+    margin: 0 auto;
+    height: 700px;
+    width: 90%;
+    position: relative;
+}
+.sale-bn{
+    width: 20% !important;
+    opacity: 0.8;
+    width: 10%;
+    text-align: center;
+    font-weight: 500;
+    background: black;
+    color: white;
+    padding: 8px;
+    font-family: auto;
+    margin-bottom: 1%;
+}
+.title-bn{
+    font-weight: bold;
+    font-family: "Roboto", Sans-serif;
+}
+.hr-span{
+    background: black;
+    height: 3px;
+    width: 40px;
+}
+.content-banner{
+    opacity: 0.6;
+    margin-top: 3%;
+    font-weight: 600;
+    width: 70%;
+}
+.Read-more{
+    margin-top: 2%;
+    color: black;
+    opacity: 0.9;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.Read-more:hover{
+    color: pink;
+    text-decoration: none;
+}
+.banner-atop{
+    transform: translate(16%, 55%);
+    width: 50%;
+}
+.title-item{
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: monospace;
+    font-weight: bold;
+    margin: 0 10px;
+}
+.note{
+    text-align: center;
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+.tool-item{
+    margin: 0 auto;
+}
+.it1{
+    background: #ffe5e6;
+}
+.it2{
+    background: #ffece5;
+}
+.it3{
+    background: #fef5e4;
+}
+.banner-bottom{
+    padding-bottom: 3%;
+    margin: 0 auto;
+    width: 90%;
+}
+.Shop-categories{
+    text-align: center;
+    font-family: monospace;
+    margin-top: 10%;
+}
+.part-shop-categories .row{
+    margin: 0 auto;
+    padding-bottom: 4%;
+    margin-bottom: 10%;
+    padding-left: 3%;
+    padding-right: 3% ;
+}
+.image{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+.img-item{
+    width: 100%;
+    height: 90%;
+}
+.name-model{
+    padding-left: 15%;
+}
+.name-model p{
+    font-size: 1.5rem;
+    font-family: monospace;
+}
+.turn-left{
+    position: absolute;
+    left: 10%;
+    padding: 2px;
+    transform: translateY(1000%);
+}
+.turn-right{
+    position: absolute;
+    right: 10%;
+    padding: 2px;
+    transform: translateY(1000%);
+}
+.turn-left:hover{
+    color: white;
+    border-radius: 20%;
+    background: black;
+}
+.turn-right:hover{
+    color: white;
+    border-radius: 20%;
+    background: black;
+}
+.image-blog{
+    padding:0;
+    box-shadow: 48px -48px 0px 2px #F6F6F6;
+}
+.content-blog{
+    font-family: monospace;
+    margin-top: 8%;
+}
+.content-blog h2{
+    font-size: 2.5rem;
+}
+.content-blog p {
+    font-family: auto;
+    opacity: 0.8;
+}
+.shop-now{
+    width: 14%;
+    text-align: center;
+    padding: 12px 25px;
+    background: black;
+    color: white;
+    font-family: monospace;
+    font-weight: 600;
+}
+.shop-now:hover{
+    text-decoration: none;
+    color: white;
+    background: pink;
+}
+.blog{
+    margin-bottom: 6%;
+}
+.bnbt-it .title-item-banner{
+    color: black;
+    text-align: center;
+    font-size: 1.6rem;
+    margin-top: 10%;
+    transition: 0.5s all;
+}
+.bnbt-it .text{
+    color: black;
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 40%;
+    transition: 0.5s all;
+    display: none;
+}
+
+.bnbt-it:hover{
+    text-decoration: none;
+    transition: 0.5s all;
+}
+.banner-bt-item:hover .text{
+    display: block;
+    transition: 0.5s all;
+}
+.niv{
+    height: 5px;
+    background: white;
+    width: 90%;
+    margin: 0 auto;
+    display: none;
+    transition: 0.5s all;
+}
+.banner-bt-item:hover .title-item-banner{
+    margin-top: 5%;
+}
+.banner-bt-item:hover .niv{
+    display: block;
+    transition: 1.5s all;
+}
+.title-md-popular{
+    margin: 5% auto;
+    text-align: center;
+    font-family: monospace;
+}
+.ftct-title{
+    margin: 5% auto;
+    text-align: center;
+    font-family: monospace;
+    font-size: 2.4rem;
+}
+.content-ftct{
+    margin-top: 3%;
+}
+.title-ct{
+    padding-top: 30%;
+    color: black;
+    font-family: monospace;
+    font-size: 2rem;
+    font-weight: 300;
+}
+.title-ct:hover{
+    text-decoration: none;
+    color:pink;
+}
+.time{
+    margin: 2% 0;
+    color: black;
+}
+.admin{
+    color: black;
+}
+.admin:hover{
+    text-decoration: none;
+    color: pink;
+}
+.date{
+    color: black;
+}
+.date:hover{
+    text-decoration: none;
+    color: pink;
+}
+.ct-ct{
+    color: black;
+    opacity: 0.7;
+}
+.content-ftct{
+    background: #b9bec2;
+    width: 85%;
+    float: right;
+    margin-top: -10%;
+    position: relative;
+    margin-bottom: 20%;
+    padding-left: 3%;
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+.contentCT{
+    font-family: monospace;
+    font-size: 2rem;
+    text-align: right;
+}
+.contactWithEmail{
+    opacity: 0.8;
+    padding: 1%;
+    margin: 0 auto;
+    width: 90%;
+    background: pink;
+}
+.input{
+    width: 90%;
+}
+.input input{
+    border: none;
+    width: 100%;
+    height: 95%;
+}
+.subribe{
+    padding:10px 20px;
+    color: white;
+    text-align: center;
+    background: black;
+}
+.Instagram{
+    font-family: monospace;
+    font-size: 2rem;
+    text-align: center;
+    margin: 5% 0;
+}
+.footer-bottom{
+    font-family: monospace;
+}
+.ftbt-title{
+    font-size: 1.4rem;
+}
+.rf{
+    padding-left: 6%;
+}
+.rf li a{
+    color: white;
+    opacity: 0.7;
+    font-size: 1rem;
+}
+.rf li a:hover{
+    text-decoration: none;
+    color: pink;
+}
+.author{
+    margin-top: 5%;
+    margin-left: 5%;
+    font-size: 1.2rem;
+    opacity: 0.7;
+}
+.c_ath{
+    text-align: right;
+}
+.contact-author ul{
+    margin-right: 20%;
+}
+.contact-author i{
+    float: right;
+    padding: 3%;
+    font-size: 100%;
+}
+.contact-author i:hover{
+    color: pink;
+}
+footer .row{
+    padding-bottom: 2%;
+}
+.btnL{
+    top: 30%;
+    left: 5% !important;
+}
+.btnR{
+    top: 30%;
+    right: 6% !important;
+}
+.row-product{
+    position: relative;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
+    opacity: 0.7;
+    }
+#myBtn:hover {
+    background-color: #555;
+}
